@@ -182,6 +182,7 @@ padding: 25px 0;
 .hero__logo {
 text-align: center;
 font-size: 0;
+overflow: hidden;
 }
 
 .hero__logo img{
