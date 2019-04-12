@@ -1435,7 +1435,7 @@ td, th {
 padding: 10px;
 }
 .btn01 {
-    margin: 0px auto 30px;
+margin: 0px auto 30px;
 }
 .btn01 a {
 padding: 10px 60px;
@@ -1449,7 +1449,7 @@ width: 50px;
 width: 100%;
 }
 .bnrArea .snsLists {
-    margin-bottom: 10px;
+margin-bottom: 10px;
 }
 .notesLists{
 font-size: 12px;
@@ -1458,7 +1458,7 @@ font-size: 12px;
 box-sizing: border-box;
 }
 .footer__body{
-	padding: 25px;
+padding: 25px;
 }
 .footer {
 background: #fff;
