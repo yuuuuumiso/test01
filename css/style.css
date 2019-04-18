@@ -1119,12 +1119,26 @@ color: #e62b00;
 font-size: 16px;
 }
 .ttl{
-background: #3e8441;
+background: #709c2b;
 padding: 10px 0; 
 color: #fff;
 text-align: center;
 font-size: 36px;
 margin-bottom: 20px;
+}
+.ttl03 {
+font-size: 50px;
+margin-bottom: 10px;
+}
+.ttl04 {
+color: #fff;
+background: #709c2b;
+padding: 5px;
+font-size: 30px;
+margin-bottom: 20px;
+border-radius: 10px;
+width: 55%;
+margin:0 auto 15px;
 }
 .inner{
 margin: auto;
@@ -1135,7 +1149,7 @@ padding: 50px 0;
 /*table*/
 table{
 width: 100%;
-border: 2px solid #c59100;
+border: 2px solid #709c2b;
 border-collapse: collapse;
 margin-bottom: 30px;
 font-size: 20px;
@@ -1145,20 +1159,22 @@ border: 1px solid #fff;
 border-collapse: collapse;
 }
 td, th {
-padding: 20px;
+padding: 10px;
 vertical-align: middle;
 }
 th {
-background: #c59100;
+background: #709c2b;
 color: #fff;
 font-weight: bold;
 width: 25%;
 }
 td{
 width: 75%;
+text-align: left;
+background: #ffffff;
 }
 tr:nth-child(even) td{
-background: #fcf6e6;
+background: #eef5e4;
 }
 
 /*btn*/
@@ -1168,7 +1184,7 @@ text-align: center;
 }
 .btn01 a {
 padding: 15px 120px;
-background: #c59100;
+background: #bba73b;
 text-align: center;
 display: inline-block;
 color: #fff;
@@ -1247,7 +1263,48 @@ margin: 30px 0;
 .venue .cs img{
 max-width: 100%;
 }
+.venue .venueLists{
+text-align: center;
+padding: 15px 0 30px;
+}
+.venue .venueLists li{
+display: inline-block;
+margin-right: 15px;
+padding-right: 15px;
+border-right: 1px solid #c59100;
+line-height: 1;
+}
+.venue .venueLists li:last-child{
+border: none;
+}
+.venue .venueLists li a{
+color: #c59100;
+font-weight: bold;
+border-bottom: 1px solid #c59100;
+}
 
+/*place*/
+.place{
+text-align: center;
+}
+.palce__data{
+	font-size: 22px;
+}
+.place.-grn{
+background: #e7eedc;
+}
+.place__inner{
+margin: auto;
+width: 1000px;
+padding: 50px 0;
+}
+.place__img{
+margin-bottom: 30px;
+}
+.place__txt{
+	font-size: 18px;
+margin-bottom: 30px;
+}
 /*bnr*/
 .bnrArea .lists{
 display: flex;
@@ -1346,6 +1403,35 @@ width: 115px;
 .footer .footer__logo a{
 display: inline-block;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 @media (max-width: 768px) {
 body{
 min-width: 320px;
@@ -1419,10 +1505,63 @@ margin-right: 0px;
 .venue .cs img {
 width: 100%;
 }
+.venue .venueLists {
+    padding: 0px 10px 20px;
+    width: 300px;
+    margin: auto;
+}
+.venue .venueLists li a {
+color: #c59100;
+font-weight: bold;
+border-bottom: 1px solid #c59100;
+font-size: 13px;
+}
+.venue .venueLists li {
+margin: 0 5px 10px 0;
+padding-right: 10px;
+border-right: 1px solid #c59100;
+}
+.venue .venueLists li:nth-child(3){
+border: none;
+}
+/*place*/
+.place__inner {
+margin: auto;
+width: auto;
+padding: 30px 15px;
+}
+.place__img img{
+max-width: 100%;
+}
+.palce__data {
+font-size: 14px;
+}
+.place__txt {
+font-size: 13px;
+margin-bottom: 30px;
+text-align: left;
+}
+.place__img {
+width: 85%;
+margin: 0 auto 10px;
+}
+/*ttl*/
+.ttl03 {
+font-size: 32px;
+}
 .ttl {
 font-size: 20px;
 margin-bottom: 20px;
 }
+.ttl04 {
+padding: 3px;
+font-size: 18px;
+margin-bottom: 20px;
+border-radius: 5px;
+width: 100%;
+margin: 0 auto 15px;
+}
+
 .detail .col dt {
 font-size: 18px;
 padding: 10px 15px 10px 50px;
@@ -1433,10 +1572,10 @@ font-size: 13px;
 margin-bottom: 20px;
 }
 td, th {
-padding: 10px;
+padding: 5px;
 }
 .btn01 {
-margin: 0px auto 30px;
+margin: 0px auto 10px;
 }
 .btn01 a {
 padding: 10px 60px;
