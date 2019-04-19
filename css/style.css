@@ -200,6 +200,7 @@ background: #fff;
 text-align: center;
 }
 .lead__ttl{
+color: #548534;
 letter-spacing: 3px;
 font-style: normal;
 font-weight: 300;
@@ -1207,7 +1208,7 @@ margin-bottom: 40px;
 .detail .col dt{
 font-size: 30px;
 color: #9d7400;
-background: #ece7ce;
+background: #fcf6e6;
 padding: 10px 15px 10px 65px;
 position: relative;
 }
@@ -1436,6 +1437,15 @@ display: inline-block;
 body{
 min-width: 320px;
 }
+/*.logo.m--ocha {
+width: 110px;
+left: 50%;
+transform: translate(-50%,-50%);
+}
+.logo.m--itoen {
+    left: 0;
+}
+*/
 .hero {
 background-size: auto 98%;
 }
@@ -1578,7 +1588,7 @@ padding: 5px;
 margin: 0px auto 10px;
 }
 .btn01 a {
-padding: 10px 60px;
+padding: 10px 90px;
 font-size: 14px;
 }
 .bnrArea .snsList a{
@@ -1592,7 +1602,8 @@ width: 100%;
 margin-bottom: 10px;
 }
 .notesLists{
-font-size: 12px;
+font-size: 11px;
+padding: 10px 15px;
 }
 .footer *{
 box-sizing: border-box;
