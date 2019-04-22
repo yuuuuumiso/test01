@@ -1138,7 +1138,7 @@ padding: 5px;
 font-size: 30px;
 margin-bottom: 20px;
 border-radius: 10px;
-width: 55%;
+width: 75%;
 margin:0 auto 15px;
 }
 .inner{
@@ -1192,6 +1192,13 @@ color: #fff;
 margin: auto;
 font-size: 18px;
 font-weight: bold;
+}
+
+/*note*/
+.notesLists {
+margin: auto;
+width: 1000px;
+padding: 20px 0;
 }
 
 /*detail*/
@@ -1289,10 +1296,10 @@ border-bottom: 1px solid #c59100;
 text-align: center;
 }
 .palce__data{
-	font-size: 22px;
+font-size: 22px;
 }
 .place.-grn{
-background: #e7eedc;
+background: #effbdc;
 }
 .place__inner{
 margin: auto;
@@ -1303,7 +1310,7 @@ padding: 50px 0;
 margin-bottom: 30px;
 }
 .place__txt{
-	font-size: 18px;
+font-size: 18px;
 margin-bottom: 30px;
 }
 /*bnr*/
@@ -1443,7 +1450,7 @@ left: 50%;
 transform: translate(-50%,-50%);
 }
 .logo.m--itoen {
-    left: 0;
+left: 0;
 }
 */
 .hero {
@@ -1516,9 +1523,9 @@ margin-right: 0px;
 width: 100%;
 }
 .venue .venueLists {
-    padding: 0px 10px 20px;
-    width: 300px;
-    margin: auto;
+padding: 0px 10px 20px;
+width: 300px;
+margin: auto;
 }
 .venue .venueLists li a {
 color: #c59100;
@@ -1604,6 +1611,7 @@ margin-bottom: 10px;
 .notesLists{
 font-size: 11px;
 padding: 10px 15px;
+width: auto;
 }
 .footer *{
 box-sizing: border-box;
