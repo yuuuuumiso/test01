@@ -91,11 +91,11 @@ transform: translateY(-50%);
 }
 
 .logo.m--ocha {
-left: 0;
+right: 0;
 }
 
 .logo.m--itoen {
-right: 0;
+left: 0;
 }
 
 .pagetop {
@@ -854,7 +854,7 @@ min-width: 100%;
 
 .head {
 padding: 0 15px;
-height: 50px;
+height: 60px;
 box-sizing: border-box;
 }
 
@@ -872,7 +872,7 @@ height: auto;
 }
 
 .logo.m--itoen {
-width: 81px;
+width: 70px;
 }
 
 .logo.m--itoen img {
@@ -947,6 +947,7 @@ border-width: 20px 23px 0 23px;
 
 .lead__txt {
 font-size: 13px;
+text-align: left;
 }
 
 .know {
@@ -1175,16 +1176,17 @@ text-align: left;
 background: #ffffff;
 }
 tr:nth-child(even) td{
-background: #eef5e4;
+background: #eff7e0;
 }
 
 /*btn*/
 .btn01{
-margin:0px auto 50px;
+padding-bottom: 10px;
+margin:0px auto 0px;
 text-align: center;
 }
 .btn01 a {
-padding: 15px 120px;
+padding: 15px 155px;
 background: #bba73b;
 text-align: center;
 display: inline-block;
@@ -1252,10 +1254,12 @@ border-width: 0px 25px 70px 0px;
 }
 .detail .col dd{
 padding: 10px 0px 0 65px;
-font-size: 20px;
+font-size: 18px;
 }
 .detail .col dd span{
-font-size: 85%;
+display: block;
+font-size: 12px;
+margin-top: 15px;
 }
 .detail .col--B .txt{
 margin-top: 20px;
@@ -1304,7 +1308,7 @@ background: #effbdc;
 .place__inner{
 margin: auto;
 width: 1000px;
-padding: 50px 0;
+padding:30px 0 30px;
 }
 .place__img{
 margin-bottom: 30px;
@@ -1444,15 +1448,15 @@ display: inline-block;
 body{
 min-width: 320px;
 }
-/*.logo.m--ocha {
-width: 110px;
+.logo.m--ocha {
+width: 55px;
 left: 50%;
 transform: translate(-50%,-50%);
 }
 .logo.m--itoen {
 left: 0;
 }
-*/
+
 .hero {
 background-size: auto 98%;
 }
@@ -1500,6 +1504,10 @@ margin-bottom: 20px;
 .detail .col dd {
 padding: 10px 0px 0 70px;
 font-size: 13px;
+}
+.detail .col dd span {
+    font-size: 10px;
+    margin-top: 10px;
 }
 .bnrArea .lists {
 flex-wrap: wrap;
@@ -1680,5 +1688,9 @@ width: 30%;
 }
 td {
 width: 70%;
+}
+.venue .venueLists li {
+margin: 0 0px 10px 0;
+padding-right: 5px;
 }
 }
