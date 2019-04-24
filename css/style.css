@@ -200,8 +200,8 @@ background: #fff;
 text-align: center;
 }
 .lead__ttl{
-color: #548534;
-letter-spacing: 3px;
+color: #378c00;
+letter-spacing: 1px;
 font-style: normal;
 font-weight: 300;
 font-size: 36px;
@@ -1091,8 +1091,9 @@ font-family: "メイリオ",Meiryo,"ヒラギノ角ゴ ProN W3","Hiragino Kaku G
 }
 
 .is-hutomin{
-font-family: a-otf-futo-min-a101-pr6n, serif;
-font-weight: 400;
+color: #000;
+font-family: メイリオ;
+font-weight: 800;
 font-style: normal;
 }
 .is-ryumin{
@@ -1102,7 +1103,7 @@ font-weight: 300;
 .hero {
 width: 100%;
 padding: 0px 0;
-background: url(../img/bg_03.jpg) repeat center center;
+background: #99d100;
 }
 }
 /*lead*/
@@ -1121,7 +1122,7 @@ color: #e62b00;
 font-size: 16px;
 }
 .ttl{
-background: #709c2b;
+background: #99d100;
 padding: 10px 0; 
 color: #fff;
 text-align: center;
@@ -1134,7 +1135,7 @@ margin-bottom: 10px;
 }
 .ttl04 {
 color: #fff;
-background: #709c2b;
+background: #99d100;
 padding: 5px;
 font-size: 30px;
 margin-bottom: 20px;
@@ -1151,10 +1152,10 @@ padding: 50px 0;
 /*table*/
 table{
 width: 100%;
-border: 2px solid #709c2b;
+border: 2px solid #99d100;
 border-collapse: collapse;
 margin-bottom: 30px;
-font-size: 20px;
+font-size: 18px;
 }
 td, th {
 border: 1px solid #fff;
@@ -1165,7 +1166,7 @@ padding: 10px;
 vertical-align: middle;
 }
 th {
-background: #709c2b;
+background: #99d100;
 color: #fff;
 font-weight: bold;
 width: 25%;
@@ -1173,7 +1174,7 @@ width: 25%;
 td{
 width: 75%;
 text-align: left;
-background: #ffffff;
+background: #fbfced;
 }
 tr:nth-child(even) td{
 background: #eff7e0;
@@ -1187,7 +1188,7 @@ text-align: center;
 }
 .btn01 a {
 padding: 15px 155px;
-background: #bba73b;
+background: #ff9600;
 text-align: center;
 display: inline-block;
 color: #fff;
@@ -1300,6 +1301,7 @@ border-bottom: 1px solid #c59100;
 text-align: center;
 }
 .palce__data{
+color: #000;
 font-size: 22px;
 }
 .place.-grn{
@@ -1449,9 +1451,7 @@ body{
 min-width: 320px;
 }
 .logo.m--ocha {
-width: 55px;
-left: 50%;
-transform: translate(-50%,-50%);
+width: 60px;
 }
 .logo.m--itoen {
 left: 0;
@@ -1473,12 +1473,13 @@ padding: 15px 15px;
 flex-direction: column-reverse;
 }
 .detail .col--A{
-order: 1;
+order: 2;
 width: auto;
+margin: 0 auto 0px;
 }
 .detail .col--B{
-order: 2;
-margin: 0 auto 30px;
+order: 1;
+margin: 0 auto 10px;
 text-align: center;
 }
 .detail .col--B .img{
@@ -1487,7 +1488,7 @@ margin: auto;
 }
 .detail .col--B .txt {
 font-size: 12px;
-margin-top: 10px;
+margin: 0px auto 30px;
 }
 .detail .col dt:before {
 width: 62px;
@@ -1532,7 +1533,7 @@ width: 100%;
 }
 .venue .venueLists {
 padding: 0px 10px 20px;
-width: 300px;
+width: 310px;
 margin: auto;
 }
 .venue .venueLists li a {
@@ -1572,6 +1573,7 @@ margin: 0 auto 10px;
 }
 /*ttl*/
 .ttl03 {
+color: #000;
 font-size: 32px;
 }
 .ttl {
