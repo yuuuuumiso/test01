@@ -1269,6 +1269,10 @@ font-size: 14px;
 .detail .col--A{
 width: 485px;
 }
+.detail .col--A .txt{
+margin-top: 20px;
+font-size: 12px;
+}
 /*venue*/
 .venue .cs{
 margin: 30px 0;
